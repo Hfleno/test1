@@ -8,5 +8,14 @@
 </head>
 <body>
     <h1>Hello</h1>
+    <div id="host"></div>
+    <div class="hostname"></div>
 </body>
+<script>
+    const host = window.location.host
+    const hostname = window.location.hostname
+
+    document.getElementById("host").innerHTML = host
+    document.getElementById("hostname").innerHTML = hostname
+</script>
 </html>
